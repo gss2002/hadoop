@@ -781,5 +781,13 @@ public final class Constants {
    */
   public static final String STORE_CAPABILITY_DIRECTORY_MARKER_ACTION_DELETE
       = "fs.s3a.capability.directory.marker.action.delete";
+  
+  /**
+   * AWS S3 region for the bucket. When set bypasses the construction of
+   * region through endpoint url.
+   */
+  public static final String AWS_REGION = "fs.s3a.endpoint.region";
+  public static final String AWS_S3_CENTRAL_REGION = "us-east-1";
+
 
 }
