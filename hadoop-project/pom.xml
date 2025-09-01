@@ -37,7 +37,7 @@
     <!--Whether to proceed to next module if any test failures exist-->
     <maven.test.failure.ignore>true</maven.test.failure.ignore>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
-    <jetty.version>9.4.48.v20220622</jetty.version>
+    <jetty.version>9.4.56.v20240826</jetty.version>
     <test.exclude>_</test.exclude>
     <test.exclude.pattern>_</test.exclude.pattern>
 
@@ -63,7 +63,7 @@
     <java.security.egd>file:///dev/urandom</java.security.egd>
 
     <!-- avro version -->
-    <avro.version>1.9.2</avro.version>
+    <avro.version>1.11.4</avro.version>
 
     <!-- jersey version -->
     <jersey.version>1.19.4</jersey.version>
@@ -85,9 +85,9 @@
     <re2j.version>1.1</re2j.version>
 
     <!--Protobuf version for backward compatibility-->
-    <protobuf.version>2.5.0</protobuf.version>
+    <protobuf.version>3.25.5</protobuf.version>
     <!-- ProtocolBuffer version, actually used in Hadoop -->
-    <hadoop.protobuf.version>3.7.1</hadoop.protobuf.version>
+    <hadoop.protobuf.version>3.25.5</hadoop.protobuf.version>
     <protoc.path>${env.HADOOP_PROTOC_PATH}</protoc.path>
 
     <hadoop-thirdparty.version>1.1.1</hadoop-thirdparty.version>
@@ -97,15 +97,15 @@
     <hadoop-thirdparty-shaded-protobuf-prefix>${hadoop-thirdparty-shaded-prefix}.protobuf</hadoop-thirdparty-shaded-protobuf-prefix>
     <hadoop-thirdparty-shaded-guava-prefix>${hadoop-thirdparty-shaded-prefix}.com.google.common</hadoop-thirdparty-shaded-guava-prefix>
 
-    <zookeeper.version>3.6.3</zookeeper.version>
+    <zookeeper.version>3.8.4</zookeeper.version>
     <curator.version>5.2.0</curator.version>
     <findbugs.version>3.0.5</findbugs.version>
-    <dnsjava.version>3.4.0</dnsjava.version>
+    <dnsjava.version>3.6.0</dnsjava.version>
 
     <guava.version>27.0-jre</guava.version>
     <guice.version>4.2.3</guice.version>
 
-    <bouncycastle.version>1.68</bouncycastle.version>
+    <bouncycastle.version>1.70</bouncycastle.version>
 
     <!-- Required for testing LDAP integration -->
     <apacheds.version>2.0.0.AM26</apacheds.version>
@@ -116,14 +116,14 @@
     <commons-cli.version>1.2</commons-cli.version>
     <commons-codec.version>1.15</commons-codec.version>
     <commons-collections.version>3.2.2</commons-collections.version>
-    <commons-compress.version>1.21</commons-compress.version>
+    <commons-compress.version>1.26.0</commons-compress.version>
     <commons-csv.version>1.9.0</commons-csv.version>
-    <commons-io.version>2.11.0</commons-io.version>
+    <commons-io.version>2.14.0</commons-io.version>
     <commons-lang3.version>3.12.0</commons-lang3.version>
     <commons-logging.version>1.1.3</commons-logging.version>
     <commons-logging-api.version>1.1</commons-logging-api.version>
     <commons-math3.version>3.6.1</commons-math3.version>
-    <commons-net.version>3.8.0</commons-net.version>
+    <commons-net.version>3.9.0</commons-net.version>
     <commons-text.version>1.10.0</commons-text.version>
 
     <kerby.version>2.0.2</kerby.version>
@@ -133,7 +133,7 @@
     <mssql.version>6.2.1.jre7</mssql.version>
     <okhttp.version>2.7.5</okhttp.version>
     <okhttp3.version>4.9.3</okhttp3.version>
-    <kotlin-stdlib.verion>1.4.10</kotlin-stdlib.verion>
+    <kotlin-stdlib.verion>1.6.0</kotlin-stdlib.verion>
     <kotlin-stdlib-common.version>1.4.10</kotlin-stdlib-common.version>
     <jdom2.version>2.0.6.1</jdom2.version>
     <jna.version>5.2.0</jna.version>
@@ -141,7 +141,7 @@
     <gson.version>2.9.0</gson.version>
     <metrics.version>3.2.4</metrics.version>
     <netty3.version>3.10.6.Final</netty3.version>
-    <netty4.version>4.1.77.Final</netty4.version>
+    <netty4.version>4.1.118.Final</netty4.version>
     <snappy-java.version>1.1.8.2</snappy-java.version>
     <lz4-java.version>1.7.1</lz4-java.version>
 
@@ -185,7 +185,7 @@
     <make-maven-plugin.version>1.0-beta-1</make-maven-plugin.version>
     <surefire.fork.timeout>900</surefire.fork.timeout>
     <aws-java-sdk.version>1.12.316</aws-java-sdk.version>
-    <hsqldb.version>2.5.2</hsqldb.version>
+    <hsqldb.version>2.7.1</hsqldb.version>
     <frontend-maven-plugin.version>1.11.2</frontend-maven-plugin.version>
     <jasmine-maven-plugin.version>2.1</jasmine-maven-plugin.version>
     <phantomjs-maven-plugin.version>0.7</phantomjs-maven-plugin.version>
@@ -197,7 +197,7 @@
     <declared.hadoop.version>${hadoop.version}</declared.hadoop.version>
 
     <swagger-annotations-version>1.5.4</swagger-annotations-version>
-    <snakeyaml.version>1.32</snakeyaml.version>
+    <snakeyaml.version>2.0</snakeyaml.version>
     <hbase.one.version>1.7.1</hbase.one.version>
     <hbase.two.version>2.2.4</hbase.two.version>
     <junit.version>4.13.2</junit.version>
@@ -210,9 +210,9 @@
     <solr.version>8.8.2</solr.version>
     <openssl-wildfly.version>1.0.7.Final</openssl-wildfly.version>
     <jsonschema2pojo.version>1.0.2</jsonschema2pojo.version>
-    <woodstox.version>5.3.0</woodstox.version>
-    <json-smart.version>2.4.7</json-smart.version>
-    <nimbus-jose-jwt.version>9.8.1</nimbus-jose-jwt.version>
+    <woodstox.version>5.4.0</woodstox.version>
+    <json-smart.version>2.4.9</json-smart.version>
+    <nimbus-jose-jwt.version>9.37.2</nimbus-jose-jwt.version>
     <nodejs.version>v12.22.1</nodejs.version>
     <yarnpkg.version>v1.22.5</yarnpkg.version>
     <apache-ant.version>1.10.11</apache-ant.version>
@@ -1120,12 +1120,12 @@
       <dependency>
         <groupId>org.apache.mina</groupId>
         <artifactId>mina-core</artifactId>
-        <version>2.0.22</version>
+        <version>2.0.27</version>
       </dependency>
       <dependency>
         <groupId>org.apache.sshd</groupId>
         <artifactId>sshd-core</artifactId>
-        <version>1.6.0</version>
+        <version>2.7.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.ftpserver</groupId>
@@ -1207,7 +1207,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-configuration2</artifactId>
-        <version>2.8.0</version>
+        <version>2.10.1</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.commons</groupId>
@@ -1499,7 +1499,7 @@
       <dependency>
         <groupId>org.codehaus.jettison</groupId>
         <artifactId>jettison</artifactId>
-        <version>1.5.1</version>
+        <version>1.5.4</version>
         <exclusions>
           <exclusion>
             <groupId>stax</groupId>
